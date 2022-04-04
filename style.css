@@ -1,0 +1,124 @@
+:root{
+    --darker-bg: #161619;
+    --dark-bg: #1A1B21;
+    --darkish-bg: #23252C;
+    --linkedin-blue: #5093E2;
+    --user-role-color: #F3BF99;
+    --text-title-color: #F5F5F5;
+    --text-paragraph-color: #DCDCDC;   
+    --email-icon-text-color: #374151;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--darker-bg);
+}
+
+/* App section */
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--darkish-bg);
+    width: 550px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+
+.content-container{
+    background-color: var(--dark-bg);
+    width: 317px;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}  
+
+/* Info section */
+
+.info-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.info-buttons--container{
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+    gap: 1rem;
+}
+
+.info-title{
+    color: var(--text-title-color);
+}
+
+.info-roledescription{
+    color: var(--user-role-color);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.info-website{
+    color: var(--text-paragraph-color);
+    font-size: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 115px;
+    border-radius: 5px;
+}
+
+.info-button--icon{
+    margin-right: .5rem ;
+}
+
+.button-email{
+    background-color: white;
+    font-size: 15px;
+}
+
+.button-linkedin{
+    background-color: var(--linkedin-blue);
+}
+
+/* About / Interests section */
+
+.about-interests--container{
+    margin: 2rem 0;
+}
+
+.about-interests--title{
+    color: var(--text-title-color);
+}
+
+.about-interests--description{
+    color: var(--text-paragraph-color);
+    font-size: 10px;
+    font-weight: 100;
+}
+
+/* Footer section */
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--darker-bg);
+    box-sizing: border-box;
+    width: 317px;
+    padding: 1rem;
+    border-radius: 0 0 5px 5px;
+}
